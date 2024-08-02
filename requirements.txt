@@ -1,0 +1,15 @@
+matplotlib==3.5.2
+numpy==1.23.0
+jax==0.3.14
+jaxlib==0.3.14
+distrax==0.1.2
+scikit-learn==1.1.1
+dm-haiku==0.0.7
+optax==0.1.2
+causallearn
+causaldag
+conditional_independence
+# vis stuff
+wandb
+plotly
+seaborn==0.11.2
