@@ -2,6 +2,7 @@ matplotlib
 numpy
 jax
 jaxlib
+dcor
 distrax
 scikit-learn
 dm-haiku
