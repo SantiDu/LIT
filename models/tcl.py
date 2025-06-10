@@ -157,7 +157,7 @@ class TCL():
             lambda m, n, p: n != "b", params)
         l2_loss = sum(
             jnp.sum(jnp.square(p))
-            for p in jax.tree_leaves(params_without_bias))
+            for p in jax.tree.leaves(params_without_bias))
 
         return softmax_xent + self._lambda_reg * 0.5 * l2_loss
 
